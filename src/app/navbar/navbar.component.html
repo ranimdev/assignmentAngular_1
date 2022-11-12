@@ -1,0 +1,28 @@
+<nav class="navbar navbar-expand-lg  text-uppercase contact fixed-top py-3 ">
+    <div class="container">
+      <a class="navbar-brand" href="#">Start Angular</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        Menu
+        <i class="fas fa-bars"></i>
+      </button>  
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item my-3">
+            <a class="text-decoration-none  py-3 px-3 mx-2" aria-current="page" [routerLink]=" 'home' " [routerLinkActive]=" 'test' ">Home</a>
+          </li>
+          <li class="nav-item my-3">
+            <a class="text-decoration-none  py-3 px-3 mx-2" aria-current="page" [routerLink]=" 'portfolio' " [routerLinkActive]=" 'test' ">Portfolio</a>
+          </li>
+          <li class="nav-item my-3">
+            <a class="text-decoration-none mx-2 py-3 px-3" [routerLink]=" 'about' " [routerLinkActive]=" 'test' ">About</a>
+          </li>
+          <li class="nav-item my-3">
+            <a class="text-decoration-none mx-2 py-3 px-3" [routerLink]=" 'contact' " [routerLinkActive]=" 'test' ">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+</nav>
+
+

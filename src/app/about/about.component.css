@@ -1,0 +1,26 @@
+.about{
+    /* margin-top: calc(6rem + 74px); */
+    background-color: #1abc9c;
+}
+
+h2{
+    font-size: 3.3rem;
+    color: white !important;
+    font-weight: 700;
+}
+
+.custom-line{
+    width: 100%;
+    max-width: 6.3rem;
+    height: 0.25rem;
+    background-color: white !important;
+    border-radius: 1rem;
+    border-color: white !important;
+}
+
+.row p{
+    padding-top: 1rem;
+    font-size: 1.25rem;
+    font-weight: 400;
+    color: white;
+}

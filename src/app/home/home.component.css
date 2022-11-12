@@ -1,0 +1,45 @@
+.home{
+    padding-top: calc(6rem + 74px);
+    padding-bottom: 6rem;
+    background-color: #1abc9c !important;
+
+}
+
+.home h1{
+    font-size: 4rem;
+    line-height: 3.5rem;
+}
+
+.home img{
+    width: 15rem;
+}
+
+.custom{
+    margin: 1.25rem 0 1.5rem;
+}
+
+/* .custom .fa-star::after{
+    width: 100%;
+    max-width: 7rem;
+    height: 0.25rem;
+    background-color: white !important;
+    border-radius: 1rem;
+    border-color: #2c3e50 !important;
+
+} */
+
+.custom-line{
+    width: 100%;
+    max-width: 7rem;
+    height: 0.25rem;
+    background-color: white !important;
+    
+    border-radius: 1rem;
+    border-color: #2c3e50 !important;
+} 
+
+.home p{
+    font-size: 1.5rem;
+    font-weight: 400 !important;
+
+}
